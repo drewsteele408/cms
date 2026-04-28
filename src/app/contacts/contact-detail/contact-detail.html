@@ -1,1 +1,16 @@
-<p>contact-detail works!</p>
+<div class="panel panel-default contact-detail-panel">
+	<div class="panel-heading clearfix">
+		<div class="pull-left detail-heading-content">
+			<h3 class="panel-title">{{ contact?.name }}</h3>
+		</div>
+		<div class="pull-right detail-actions">
+			<a href="#" class="btn btn-primary btn-sm">Edit</a>
+			<a href="#" class="btn btn-danger btn-sm">Delete</a>
+		</div>
+	</div>
+
+	<div class="panel-body">
+		<p><strong>Email:</strong> {{ contact?.email }}</p>
+		<p><strong>Phone:</strong> {{ contact?.phone }}</p>
+	</div>
+</div>
