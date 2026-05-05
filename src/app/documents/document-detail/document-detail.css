@@ -1,0 +1,22 @@
+.document-detail-panel {
+	margin-top: 16px;
+}
+
+.detail-heading-content {
+	max-width: 60%;
+}
+
+.panel-title {
+	font-size: 3rem;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.detail-actions .btn {
+	margin-left: 6px;
+}
+
+.panel-body p {
+	font-size: 2rem;
+	color: #333;
+}

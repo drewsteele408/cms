@@ -1,0 +1,19 @@
+.pad-left-right {
+	margin: 0;
+	padding: 0 8px;
+}
+
+.title {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #333;
+	line-height: 34px;
+}
+
+.center-panel {
+	min-height: 24rem;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 4px;
+	overflow: auto;
+}

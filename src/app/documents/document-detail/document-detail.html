@@ -1,1 +1,19 @@
-<p>document-detail works!</p>
+<div class="panel panel-default document-detail-panel">
+	<div class="panel-heading clearfix">
+		<div class="pull-left detail-heading-content">
+			<h3 class="panel-title">{{ document?.name }}</h3>
+		</div>
+		<div class="pull-right detail-actions">
+			<a href="#" class="btn btn-primary btn-sm">View</a>
+			<a href="#" class="btn btn-info btn-sm">Edit</a>
+			<a href="#" class="btn btn-danger btn-sm">Delete</a>
+		</div>
+	</div>
+
+	<div class="panel-body">
+		<p><strong>Description:</strong></p>
+		<p>{{ document?.description }}</p>
+		<p><strong>URL:</strong></p>
+		<p>{{ document?.url }}</p>
+	</div>
+</div>
