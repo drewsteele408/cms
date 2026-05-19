@@ -1,19 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { provideRouter } from '@angular/router';
 
-import { ContactList } from './contact-list';
+import { DocumentEdit } from './document-edit';
 
-describe('ContactList', () => {
-  let component: ContactList;
-  let fixture: ComponentFixture<ContactList>;
+describe('DocumentEdit', () => {
+  let component: DocumentEdit;
+  let fixture: ComponentFixture<DocumentEdit>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ContactList],
-      providers: [provideRouter([])],
+      imports: [DocumentEdit],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ContactList);
+    fixture = TestBed.createComponent(DocumentEdit);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
